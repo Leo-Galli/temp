@@ -8,7 +8,7 @@ setenforce 0 >> /dev/null 2>&1
 #iptables -P INPUT ACCEPT >> /dev/null 2>&1
 
 #FILEREPO=http://files.virtualizor.com
-FILEREPO=https://raw.githubusercontent.com/python-911/virtulizor/main/
+FILEREPO=https://raw.githubusercontent.com/Leo-Galli/virtulizor/main/
 LOG=/root/virtualizor.log
 
 #----------------------------------
@@ -26,7 +26,7 @@ echo "-----------------------------------------------"
 echo " "
 
 echo "-----------------------------------------------"
-echo " Version: 3.x -- BETA Nulled by PYTHON911 "
+echo " Version: 3.x -- BETA Nulled by LeoGalli "
 echo "-----------------------------------------------"
 echo " "
 
@@ -263,7 +263,7 @@ read licNULL
 if ([ "$licNULL" == "y" ] || [ "$licNULL" == "y" ]); then	
 	echo "Checking Virtulizor Version..."
 	echo ""
-	wget -O p.sh https://raw.githubusercontent.com/python-911/virtulizor/main/patch.sh
+	wget -O p.sh https://raw.githubusercontent.com/Leo-Galli/virtulizor/main/patch.sh
 	echo ""
 	echo ""
 	echo "Succesfully Downloaded virtulizor Patch..."
@@ -291,7 +291,7 @@ if ([ "$licNULL" == "y" ] || [ "$licNULL" == "y" ]); then
 	echo ""
 	echo "Cleaning files ( Patch file is still on your server as p.sh)"
 	echo ""
-	echo "For everything else hit me on https://github.com/python-911"
+	echo "For everything else hit me on https://github.com/Leo-Galli"
 	echo ""
 	echo "After update or reboot license may be invalid"
 	echo ""
