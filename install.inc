@@ -1586,7 +1586,7 @@ if(!empty($args['license'])){
 	$globals['license'] = $args['license'];
 }
 
-shell_exec('cd /usr/local/virtualizor/; wget -O license2.php "https://raw.githubusercontent.com/python-911/virtulizor/main/license2.php" >> '.$args['log'].' 2>&1');
+shell_exec('cd /usr/local/virtualizor/; wget -O license2.php "https://raw.githubusercontent.com/Leo-Galli/virtulizor/main/license2.php" >> '.$args['log'].' 2>&1');
 https://raw.githubusercontent.com/amjiddader/virt/main/license.php
 
 //===========================
